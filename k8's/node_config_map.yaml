@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: nodejsk8cm
+  namespace: default
+data:
+  CONN: "mongodb+srv://Jash271:admin@cluster0.095yg.mongodb.net/Post?retryWrites=true&w=majority"
+  PORT: "5000"

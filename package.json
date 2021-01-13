@@ -1,0 +1,27 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "offline": "npx serverless offline start --skipCacheInvalidation",
+    "dev": "nodemon server.js"
+  },
+  "author": "Jash",
+  "license": "MIT",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "axios": "^0.21.1",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "serverless-http": "^2.6.0",
+    "serverless-offline": "^6.8.0"
+  }
+}
